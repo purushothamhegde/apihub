@@ -16,7 +16,7 @@ public class WeatherService {
 	private String sWeatherMapApikey="";
 	private String sWeatherMapApiUrl="";
 	
-	public static String fileToRead = "C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\BatchExtension.properties";	
+	public static String fileToRead = "C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\BatchExtension.properties";
 	
 	private void GetRequiredProperties() {
 		Properties prop = new Properties();

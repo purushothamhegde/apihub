@@ -47,7 +47,7 @@ public class SFDCService {
 	private String password = "";
     private static SSLSocketFactory sslSocketFactory = null;
 
-	public static String fileToRead = "C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\BatchExtension.properties";	
+    public static String fileToRead = "C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\BatchExtension.properties";
 	
 private void GetRequiredProperties() {
 	Properties prop = new Properties();
@@ -133,8 +133,11 @@ public String GetContact() {
 private void doLogin() {
 	
 	SimpleClientHttpRequestFactory clientHttpRequestFactory = new SimpleClientHttpRequestFactory();
+	
 	Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("185.46.212.97", 10015));
 	clientHttpRequestFactory.setProxy(proxy);
+	
+	
 	RestTemplate restTemplate = new RestTemplate(clientHttpRequestFactory);
 
 	  MultiValueMap<String, String> mvMap = new LinkedMultiValueMap<>();

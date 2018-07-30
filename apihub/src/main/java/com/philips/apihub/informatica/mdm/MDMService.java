@@ -34,6 +34,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
 
 
+
 @Service
 public class MDMService {
 	
@@ -44,8 +45,8 @@ public class MDMService {
 	private String password = "";
     
 	public static Logger logger = Logger.getLogger(MDMService.class.getName());
-	public static String fileToRead = "C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\BatchExtension.properties";
-
+	public static String fileToRead = "C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\BatchExtension.properties";
+	
     @Autowired
     private MDMServiceDAO mdmServiceDAO;
     

@@ -55,7 +55,8 @@ public class RallyService {
 
     private static SSLSocketFactory sslSocketFactory = null;
     
-	public static String fileToRead = "C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\BatchExtension.properties";
+    
+	public static String fileToRead = "C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\BatchExtension.properties";
 
 	
 	

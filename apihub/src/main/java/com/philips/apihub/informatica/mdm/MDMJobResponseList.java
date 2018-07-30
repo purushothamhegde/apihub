@@ -3,6 +3,7 @@ package com.philips.apihub.informatica.mdm;
 import java.io.Serializable;
 import java.util.List;
 
+
 public class MDMJobResponseList implements Serializable {
 
 	private List <MDMJobResponse> mdmresponselist ;

@@ -26,7 +26,7 @@ public class SnowService {
 	private String username = "";
 	private String password = "";
 
-	public static String fileToRead = "C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\BatchExtension.properties";
+	public static String fileToRead = "C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\BatchExtension.properties";
 	
 	public String GetIncidentDetails(String IncidentId) {
 		

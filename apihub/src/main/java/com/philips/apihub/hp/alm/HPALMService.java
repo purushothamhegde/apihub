@@ -30,7 +30,8 @@ public class HPALMService {
     {
         Properties almProperties = new Properties();
         
-        File file = new File("C:\\Purush\\WebApps\\apihub\\src\\main\\resources\\alm.properties");
+    	
+        File file = new File("C:\\Purush\\LocalGit\\apihub\\apihub\\src\\main\\resources\\alm.properties");
         
         if (file.exists()) {
         	
